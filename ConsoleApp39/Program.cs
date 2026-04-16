@@ -1,8 +1,11 @@
-﻿Console.WriteLine("Введите пример: ");
+﻿using System.Globalization;
+Console.WriteLine("Введите пример: ");
 string input = Console.ReadLine().Replace(" ", ""); 
 
 char[] ops = { '+', '-', '*', '/', '^' };
-List<double> numbers = input.Split(ops).Select(double.Parse).ToList();
+List<double> numbers = input.Split(ops)
+    .Select(s => double.Parse(s, CultureInfo.InvariantCulture))
+    .ToList();
 List<char> operators = input.Where(c => ops.Contains(c)).ToList();
 double result = numbers[0];
 

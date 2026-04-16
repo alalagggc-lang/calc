@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\301k16\\source\\repos\\ConsoleApp39\\ConsoleApp39.csproj",
+      "projectUniqueName": "C:\\Users\\301k16\\Desktop\\ZZZZ\\ConsoleApp39\\ConsoleApp39.csproj",
       "projectName": "ConsoleApp39",
-      "projectPath": "C:\\Users\\301k16\\source\\repos\\ConsoleApp39\\ConsoleApp39.csproj",
+      "projectPath": "C:\\Users\\301k16\\Desktop\\ZZZZ\\ConsoleApp39\\ConsoleApp39.csproj",
       "packagesPath": "C:\\Users\\301k16\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\301k16\\source\\repos\\ConsoleApp39\\obj\\",
+      "outputPath": "C:\\Users\\301k16\\Desktop\\ZZZZ\\ConsoleApp39\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
